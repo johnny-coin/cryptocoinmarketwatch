@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>Automate Crypto Portfolio Using Google Sheets &middot;  -  Everything Crypto </title>
+  <meta name="generator" content="Hugo 0.31.1" />
+  <meta name="description" content="Everything Crypto"> 
+
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Automate Crypto Portfolio Using Google Sheets"/>
+<meta name="twitter:description" content="Today I will show you how to create a makeshift Google Sheet in order to pull pricing and totals for your portfolio in your favourite currencies.
+First, browse to sheets.google.com
+Then, name your sheet and save it.
+Now, to fill out the sheet. Make sure the very first row of your sheet just has labels and fiat currencies you want to get rates for. For example, my first row has labels: Coins, Qty, USD, CAD, JPY."/>
+
+  <meta property="og:title" content="Automate Crypto Portfolio Using Google Sheets" />
+<meta property="og:description" content="Today I will show you how to create a makeshift Google Sheet in order to pull pricing and totals for your portfolio in your favourite currencies.
+First, browse to sheets.google.com
+Then, name your sheet and save it.
+Now, to fill out the sheet. Make sure the very first row of your sheet just has labels and fiat currencies you want to get rates for. For example, my first row has labels: Coins, Qty, USD, CAD, JPY." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.cryptocoinmarketwatch.com/post/crypto-sheets/" />
+
+
+
+<meta property="article:published_time" content="2017-12-07T12:45:53-08:00"/>
+
+<meta property="article:modified_time" content="2017-12-07T12:45:53-08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- RSS autodiscovery --> 
+
+  
+<meta itemprop="name" content="Automate Crypto Portfolio Using Google Sheets">
+<meta itemprop="description" content="Today I will show you how to create a makeshift Google Sheet in order to pull pricing and totals for your portfolio in your favourite currencies.
+First, browse to sheets.google.com
+Then, name your sheet and save it.
+Now, to fill out the sheet. Make sure the very first row of your sheet just has labels and fiat currencies you want to get rates for. For example, my first row has labels: Coins, Qty, USD, CAD, JPY.">
+
+
+<meta itemprop="datePublished" content="2017-12-07T12:45:53-08:00" />
+<meta itemprop="dateModified" content="2017-12-07T12:45:53-08:00" />
+<meta itemprop="wordCount" content="338">
+
+
+
+<meta itemprop="keywords" content="" />
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+  <link rel="stylesheet" href="http://www.cryptocoinmarketwatch.com/css/style.css">
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "",
+  "url": "http://www.cryptocoinmarketwatch.com/post/crypto-sheets/"
+}
+</script>
+
+</head>
+
+<body>
+  <header class="gheader">
+  <div class="container">
+    <nav class="navbar ">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="http://www.cryptocoinmarketwatch.com/">
+          <h1 class="brand"></h1>
+        </a>
+
+        <div class="navbar-burger burger" data-target="navMenubd-example">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navMenubd-example" class="navbar-menu">
+        <div class="navbar-start">
+          
+          <a class="navbar-item" href="">
+            
+          </a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <div class="main-content">
+    <div class="container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="title">Automate Crypto Portfolio Using Google Sheets</h1>
+      <div class="meta">
+        <time class="pub-time"  datetime="2017-12-07T12:45:53-08:00">
+          2017.12.07
+        </time>
+        <div class="terms">
+          
+          
+        </div>
+      </div>
+    </header>
+    <div class="post-body">
+      <p>Today I will show you how to create a makeshift Google Sheet in order to pull pricing and totals for your portfolio in your favourite currencies.</p>
+
+<p>First, browse to <code>sheets.google.com</code></p>
+
+<p>Then, name your sheet and save it.</p>
+
+<p>Now, to fill out the sheet. Make sure the very first row of your sheet just has labels and fiat currencies you want to get rates for. For example, my first row has labels:  Coins, Qty, USD, CAD, JPY. See the image below.</p>
+
+
+<figure >
+    
+        <img src="http://www.cryptocoinmarketwatch.com/crypto-sheet/cryptosheet1.jpg" />
+    
+    
+    <figcaption>
+        <h4>crypto sheet example</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Now under the &ldquo;Coins&rdquo; column, fill out all your coins in full name, not symbols. For example: ethereum, iota, request-network. Under the quantities, fill out the corresponding quantities you hold for each crypto.</p>
+
+<p>Setup the script.</p>
+
+<p>Click on Tools, Script Editor&hellip;  It should create a new file called code.gs and show code like below:</p>
+
+<pre>
+  function myFunction() {
+  
+  }
+</pre>
+
+<p>Delete everything in there and copy and paste the following:</p>
+
+<script src="//gist.github.com/johnny-coin/fc5769e9fbbf5bdd880289733220e589.js"></script>
+
+<p>At the top of this file you should see comments about entering your initial investment currency and amount. Currently it is &ldquo;USD&rdquo; and 0. You can replace it with your currency that you invested with, and your investment amount. This will allow the script to calculate profits for you in all the currencies you requested.</p>
+
+<p>Now run the script by hitting the button that looks like &ldquo;play&rdquo; button. Make sure the function myFunction is selected first. See the image below.</p>
+
+
+<figure >
+    
+        <img src="http://www.cryptocoinmarketwatch.com/crypto-sheet/script1.jpg" />
+    
+    
+    <figcaption>
+        <h4>crypto script example</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>This will prompt google to give you a warning since this seems like an untrusted script asking for permission to your Google account. Click &ldquo;advance&rdquo; and then type in &ldquo;Continue&rdquo; as it prompts you to. This will finally run the script on your sheet and do all the calculations.</p>
+
+<p>Flip back over to your script to see the results. Now you can always load up this script, click Tools, Script Editor, and run the script to look at fresh prices and rising profits!</p>
+
+<p>Thanks for reading!</p>
+
+<p>If you are interested in new tools or updates from me, feel free to leave your email below:</p>
+
+<form action="https://formspree.io/jccryptoblogger@gmail.com"
+      method="POST">
+      <!-- honeypot field which will cause formspree to throw away this response if filled. -->
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="email" placeholder="your@email.com" name="_replyto">
+    <input type="submit" value="Send">
+</form> 
+
+    </div>
+    <footer class="post-footer">
+      
+      <div class="share">
+        
+      </div>
+
+      <div class="pagenation">
+        <ul class="pagenation-list">
+          
+          
+        </ul>
+      </div>
+    </footer>
+  </article>
+
+  
+  <article class="related"></article>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "NewsArticle",
+    "@id": "http://www.cryptocoinmarketwatch.com/post/crypto-sheets/",
+    "headline": "Today I will show you how to create a makeshift Google Sheet in order to pull pricing and totals for your port",
+    "author": "Johnny Coin",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Johnny Coin",
+      "logo": ""
+    },
+    "image": "",
+    "datePublished": "2017-12-07"
+  },
+  "headline": "Today I will show you how to create a makeshift Google Sheet in order to pull pricing and totals for your port",
+  "alternativeHeadline": "",
+  "datePublished": "2017-12-07",
+  "dateModified": "2017-12-07",
+  "url": "http://www.cryptocoinmarketwatch.com/post/crypto-sheets/",
+  "wordCount": "338",
+  "author": {
+    "@type": "Person",
+    "name": "Johnny Coin"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Johnny Coin"
+  },
+  "image": "",
+  
+  
+  "description": ""
+}
+</script>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "http://www.cryptocoinmarketwatch.com/post/crypto-sheets/",
+  "name": "Johnny Coin"
+}
+</script>
+
+
+    </div>
+  </div>
+
+  <footer class="gfooter">
+  <div class="inner">
+    <div class="container">
+      <p class="copy"><small>(c) 2017 Crypto Coin Market Watch</small></p>
+
+      <nav class="footer-nav">
+        <div class="inner">
+          
+          <a class="footer-nav-item" href="">
+            
+          </a>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'Yout Google Analytics ID', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="http://www.cryptocoinmarketwatch.com/js/script.js"></script>
+
+</body>
+</html>
