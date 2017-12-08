@@ -6,7 +6,7 @@ copyright = "(c) 2017 Crypto Coin Market Watch"
 canonifyurls = true
 paginate = 3
 theme = "hugo-gentoo-theme"
-googleAnalytics = "Yout Google Analytics ID"
+googleAnalytics = "UA-110928648-1"
 
 
 [params]
@@ -17,10 +17,14 @@ googleAnalytics = "Yout Google Analytics ID"
   category = "categories"
   tag = "tags"
 
+[[menu.global]]
+    name = "Categories"
+    url = "/categories/"
 
 [[menu.global]]
-    
+    name = "Tags"
+    url = "/tags/"
 
 [[menu.footer]]
-
-
+    name = "About"
+    url = "/page/about/"
