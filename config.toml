@@ -2,7 +2,7 @@ staticDir = ["static"]
 baseurl = "http://www.cryptocoinmarketwatch.com/"
 languageCode = "en-us"
 title = "Everything Crypto"
-theme = "lithium"
+theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
 
