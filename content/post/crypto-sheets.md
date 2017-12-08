@@ -43,7 +43,7 @@ Now run the script by hitting the button that looks like "play" button. Make sur
 
 This will prompt google to give you a warning since this seems like an untrusted script asking for permission to your Google account. Click "advance" and then type in "Continue" as it prompts you to. This will finally run the script on your sheet and do all the calculations.
 
-Flip back over to your script to see the results. Now you can always load up this script, click Tools, Script Editor, and run the script to look at fresh prices and rising profits!
+Flip back over to your sheet to see the results. Now you can always load up this script, click Tools, Script Editor, and run the script to look at fresh prices and rising profits!
 
 Thanks for reading!
 
