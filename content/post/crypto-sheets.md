@@ -1,7 +1,7 @@
 ---
 title: "Automate Crypto Portfolio Using Google Sheets"
 date: 2017-12-07T12:45:53-08:00
-draft: true
+draft: false
 ---
 
 Today I will show you how to create a makeshift Google Sheet in order to pull pricing and totals for your portfolio in your favourite currencies.
