@@ -1,0 +1,21 @@
+staticDir = ["static"]
+baseurl = "http://www.cryptocoinmarketwatch.com/"
+languageCode = "en-us"
+title = "Everything Crypto"
+theme = "lithium"
+googleAnalytics = ""
+disqusShortname = ""
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[params]
+    description = ""
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
