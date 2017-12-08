@@ -1,13 +1,12 @@
 staticDir = ["static"]
 baseurl = "http://www.cryptocoinmarketwatch.com/"
-title = "Crypto Coin Market Watch"
 languageCode = "en-us"
+title = "Crypto Coin Market Watch"
 copyright = "(c) 2017 Crypto Coin Market Watch"
 canonifyurls = true
 paginate = 3
-theme = "hugo-gentoo-theme"
 googleAnalytics = "UA-110928648-1"
-
+theme = "hugo-gentoo-theme"
 
 [params]
   description = "Everything Crypto"
@@ -28,3 +27,8 @@ googleAnalytics = "UA-110928648-1"
 [[menu.footer]]
     name = "About"
     url = "/page/about/"
+    
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+filename = "sitemap.xml"
