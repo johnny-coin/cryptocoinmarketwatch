@@ -1,12 +1,13 @@
 staticDir = ["static"]
 baseurl = "http://www.cryptocoinmarketwatch.com/"
+title = "Crypto Coin Market Watch"
 languageCode = "en-us"
 copyright = "(c) 2017 Crypto Coin Market Watch"
 canonifyurls = true
 paginate = 3
 theme = "hugo-gentoo-theme"
 googleAnalytics = "Yout Google Analytics ID"
-title = "Crypto Coin Market Watch - Everything Crypto"
+
 
 [params]
   description = "Everything Crypto"
