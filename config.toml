@@ -1,21 +1,24 @@
 staticDir = ["static"]
 baseurl = "http://www.cryptocoinmarketwatch.com/"
 languageCode = "en-us"
-title = "Everything Crypto"
-theme = "hugo-lithium-theme"
-googleAnalytics = ""
-disqusShortname = ""
-
-[permalinks]
-    post = "/:year/:month/:day/:title/"
-    page = "/:title/"
+copyright = "(c) 2017 Crypto Coin Market Watch"
+canonifyurls = true
+paginate = 3
+theme = "hugo-gentoo-theme"
+googleAnalytics = "Yout Google Analytics ID"
 
 [params]
-    description = ""
+  description = "Everything Crypto"
+  author = "Johnny Coin"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+
+[[menu.global]]
+    
+
+[[menu.footer]]
+
 

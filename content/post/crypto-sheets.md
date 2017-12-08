@@ -49,7 +49,7 @@ Thanks for reading!
 
 If you are interested in new tools or updates from me, feel free to leave your email below:
 
-<form action="https://formspree.io/ccmw+jc.cryptoblogger@gmail.com"
+<form action="https://formspree.io/jccryptoblogger@gmail.com"
       method="POST">
       <!-- honeypot field which will cause formspree to throw away this response if filled. -->
     <input type="text" name="_gotcha" style="display:none" />
