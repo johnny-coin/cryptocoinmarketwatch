@@ -5,27 +5,33 @@
   <url>
     <loc>http://www.cryptocoinmarketwatch.com/post/crypto-sheets/</loc>
     <lastmod>2017-12-07T12:45:53-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cryptocoinmarketwatch.com/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.cryptocoinmarketwatch.com/</loc>
     <lastmod>2017-12-07T12:45:53-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.cryptocoinmarketwatch.com/categories/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.cryptocoinmarketwatch.com/post/</loc>
     <lastmod>2017-12-07T12:45:53-08:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.cryptocoinmarketwatch.com/tags/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
